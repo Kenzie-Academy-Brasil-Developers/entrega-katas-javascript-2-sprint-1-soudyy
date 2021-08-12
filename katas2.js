@@ -67,7 +67,7 @@ function fibonacci(f) {
     if (f == 0) {
         resul = 0
     }
-    else if (f <= 2) {
+    else if (f > 0 && f <= 2) {
         resul = 1
     }
     else {
